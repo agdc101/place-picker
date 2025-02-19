@@ -76,7 +76,8 @@ function App() {
         />
         <Places
           title="Available Places"
-          places={AVAILABLE_PLACES}
+          places={availablePlaces}
+          fallbackText={'Select the places you would like to visit below.'}
           onSelectPlace={handleSelectPlace}
         />
       </main>
